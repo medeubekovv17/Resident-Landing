@@ -1,0 +1,319 @@
+@include font-face("Golos", "../fonts/Golos/Golos-Text_Regular", 400, normal);
+@include font-face("CocoGothicAlternate", "../fonts/Coco/CocoGothicAlternate", 400, normal);
+
+/*@include font-face{
+	font-family: CocoGothic;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothic-Bold.woff2") format("woff2"), url("../fonts/Coco/CocoGothic-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+}
+@include font-face{
+	font-family: CocoGothic;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothic-BoldItalic.woff2") format("woff2"), url("../fonts/Coco/CocoGothic-BoldItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@include font-face{
+	font-family: CocoGothic;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothic-Fat.woff2") format("woff2"), url("../fonts/Coco/CocoGothic-Fat.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@include font-face{
+	font-family: CocoGothic;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothic-Heavy.woff2") format("woff2"), url("../fonts/Coco/CocoGothic-Heavy.woff") format("woff");
+	font-weight: 800;
+	font-style: normal;
+}
+@include font-face{
+	font-family: CocoGothic;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothic-FatItalic.woff2") format("woff2"), url("../fonts/Coco/CocoGothic-FatItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@include font-face{
+	font-family: CocoGothic;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothic-Light.woff2") format("woff2"), url("../fonts/Coco/CocoGothic-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+}
+@include font-face{
+	font-family: CocoGothic;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothic-HeavyItalic.woff2") format("woff2"), url("../fonts/Coco/CocoGothic-HeavyItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@include font-face{
+	font-family: CocoGothic;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothic-Regular.woff2") format("woff2"), url("../fonts/Coco/CocoGothic-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@include font-face{
+	font-family: CocoGothic;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothic-LightItalic.woff2") format("woff2"), url("../fonts/Coco/CocoGothic-LightItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@include font-face{
+	font-family: CocoGothic;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothic-UltraLightItalic.woff2") format("woff2"), url("../fonts/Coco/CocoGothic-UltraLightItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@include font-face{
+	font-family: CocoGothic;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothic-UltraLight.woff2") format("woff2"), url("../fonts/Coco/CocoGothic-UltraLight.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@include font-face{
+	font-family: CocoGothic;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothic-Italic.woff2") format("woff2"), url("../fonts/Coco/CocoGothic-Italic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@include font-face{
+	font-family: CocoGothicAlt;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothicAlt-Italic.woff2") format("woff2"), url("../fonts/Coco/CocoGothicAlt-Italic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@include font-face{
+	font-family: CocoGothicAlternate;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothicAlternate-Bold.woff2") format("woff2"), url("../fonts/Coco/CocoGothicAlternate-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+}
+@include font-face{
+	font-family: CocoGothicAlternate;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothicAlternate-FatItalic.woff2") format("woff2"), url("../fonts/Coco/CocoGothicAlternate-FatItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@include font-face{
+	font-family: CocoGothicAlternate;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothicAlternate-Fat.woff2") format("woff2"), url("../fonts/Coco/CocoGothicAlternate-Fat.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@include font-face{
+	font-family: CocoGothicAlternate;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothicAlternate-Heavy.woff2") format("woff2"), url("../fonts/Coco/CocoGothicAlternate-Heavy.woff") format("woff");
+	font-weight: 800;
+	font-style: normal;
+}
+@include font-face{
+	font-family: CocoGothicAlternate;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothicAlternate-HeavyIta.woff2") format("woff2"), url("../fonts/Coco/CocoGothicAlternate-HeavyIta.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@include font-face{
+	font-family: CocoGothicAlternate;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothicAlternate-LightItalic.woff2") format("woff2"), url("../fonts/Coco/CocoGothicAlternate-LightItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@include font-face{
+	font-family: CocoGothicAlternate;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothicAlternate-UltraLight.woff2") format("woff2"), url("../fonts/Coco/CocoGothicAlternate-UltraLight.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@include font-face{
+	font-family: CocoGothicAlternate;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothicAlternate-Light.woff2") format("woff2"), url("../fonts/Coco/CocoGothicAlternate-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+}
+@include font-face{
+	font-family: CocoGothicAlternate;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothicAlternate-UltraLightI.woff2") format("woff2"), url("../fonts/Coco/CocoGothicAlternate-UltraLightI.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@include font-face{
+	font-family: CocoGothicAlternate;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothicAlternate.woff2") format("woff2"), url("../fonts/Coco/CocoGothicAlternate.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@include font-face{
+	font-family: CocoGothicSmallCaps;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothicSmallCaps-Black.woff2") format("woff2"), url("../fonts/Coco/CocoGothicSmallCaps-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+}
+@include font-face{
+	font-family: CocoGothicSmallCaps;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothicSmallCaps-Bold.woff2") format("woff2"), url("../fonts/Coco/CocoGothicSmallCaps-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+}
+@include font-face{
+	font-family: CocoGothicSmallCaps;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothicSmallCaps-BoldIta.woff2") format("woff2"), url("../fonts/Coco/CocoGothicSmallCaps-BoldIta.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@include font-face{
+	font-family: CocoGothicSmallCaps;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothicSmallCaps-BoldItalic.woff2") format("woff2"), url("../fonts/Coco/CocoGothicSmallCaps-BoldItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@include font-face{
+	font-family: CocoGothicSmallCaps;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothicSmallCaps-ExtLt.woff2") format("woff2"), url("../fonts/Coco/CocoGothicSmallCaps-ExtLt.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@include font-face{
+	font-family: CocoGothicSmallCaps;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothicSmallCaps-ExtLtIta.woff2") format("woff2"), url("../fonts/Coco/CocoGothicSmallCaps-ExtLtIta.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@include font-face{
+	font-family: CocoGothicSmallCaps;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothicSmallCaps-Fat.woff2") format("woff2"), url("../fonts/Coco/CocoGothicSmallCaps-Fat.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@include font-face{
+	font-family: CocoGothicSmallCaps;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothicSmallCaps-FatItalic.woff2") format("woff2"), url("../fonts/Coco/CocoGothicSmallCaps-FatItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@include font-face{
+	font-family: CocoGothicSmallCaps;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothicSmallCaps-Heavy.woff2") format("woff2"), url("../fonts/Coco/CocoGothicSmallCaps-Heavy.woff") format("woff");
+	font-weight: 800;
+	font-style: normal;
+}
+@include font-face{
+	font-family: CocoGothicSmallCaps;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothicSmallCaps-Light.woff2") format("woff2"), url("../fonts/Coco/CocoGothicSmallCaps-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+}
+@include font-face{
+	font-family: CocoGothicSmallCaps;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothicSmallCaps-HeavyItalic.woff2") format("woff2"), url("../fonts/Coco/CocoGothicSmallCaps-HeavyItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@include font-face{
+	font-family: CocoGothicSmallCaps;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothicSmallCaps-LightIta.woff2") format("woff2"), url("../fonts/Coco/CocoGothicSmallCaps-LightIta.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@include font-face{
+	font-family: CocoGothicSmallCaps;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothicSmallCaps-LightItalic.woff2") format("woff2"), url("../fonts/Coco/CocoGothicSmallCaps-LightItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@include font-face{
+	font-family: CocoGothicSmallCaps;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothicSmallCaps-Regular.woff2") format("woff2"), url("../fonts/Coco/CocoGothicSmallCaps-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@include font-face{
+	font-family: CocoGothicSmallCaps;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothicSmallCaps-UltraLight.woff2") format("woff2"), url("../fonts/Coco/CocoGothicSmallCaps-UltraLight.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@include font-face{
+	font-family: CocoGothicSmallCaps;
+	font-display: swap;
+	src: url("../fonts/Coco/CocoGothicSmallCaps-UltraLightItalic.woff2") format("woff2"), url("../fonts/Coco/CocoGothicSmallCaps-UltraLightItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@include font-face{
+	font-family: Golos;
+	font-display: swap;
+	src: url("../fonts/Golos/Golos-Text_Black.woff2") format("woff2"), url("../fonts/Golos/Golos-Text_Black.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@include font-face{
+	font-family: Golos;
+	font-display: swap;
+	src: url("../fonts/Golos/Golos-Text_DemiBold.woff2") format("woff2"), url("../fonts/Golos/Golos-Text_DemiBold.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@include font-face{
+	font-family: Golos;
+	font-display: swap;
+	src: url("../fonts/Golos/Golos-Text_Bold.woff2") format("woff2"), url("../fonts/Golos/Golos-Text_Bold.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@include font-face{
+	font-family: Golos;
+	font-display: swap;
+	src: url("../fonts/Golos/Golos-Text_Medium.woff2") format("woff2"), url("../fonts/Golos/Golos-Text_Medium.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@include font-face{
+	font-family: Golos;
+	font-display: swap;
+	src: url("../fonts/Golos/Golos-Text_Regular.woff2") format("woff2"), url("../fonts/Golos/Golos-Text_Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@include font-face{
+	font-family: Golos;
+	font-display: swap;
+	src: url("../fonts/Golos/Golos-Text_VF.woff2") format("woff2"), url("../fonts/Golos/Golos-Text_VF.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}*/
+
